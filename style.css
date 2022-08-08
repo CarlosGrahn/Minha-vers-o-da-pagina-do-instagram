@@ -111,15 +111,15 @@ body{
 
 .download{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 100%;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem 0;
 }
 
 .app-download{
-    height: 57px;
-    width: 300px;
+    height: 60px;
+    width: 200px;
     background-size: cover;
 }
 
@@ -170,7 +170,7 @@ body{
     }
 
     .download{
-        width: 90%;
-        height: 100px;
+        width: 100%;
+        padding: 2rem;
     }
 }
